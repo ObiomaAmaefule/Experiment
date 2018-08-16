@@ -1,4 +1,4 @@
 var practice_trials = [
-	{question: "Where is your head?", option1: "here", option2: "there", picture: "images/question_mark_03.jpg"},
-	{question: "What's on the bread?", option1: "jam", option2: "ham", picture: "images/question_mark_04.png"},
+	{question: "Table	|	Shoe", picture: "images/question_mark_04.png", key1: "f", key2: "j", f: "not likey to remember", j: "most likey to remember", expected: "not likey to remember"},
+    {question: "R-studio	|	Analysis", picture: "images/question_mark_04.png", key1: "f", key2: "j", f: "not likey to remember", j: "most likey to remember", expected: "most likey to remember"},
 ];

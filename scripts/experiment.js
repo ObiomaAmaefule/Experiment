@@ -3,22 +3,10 @@ exp.customize = function() {
 
     // specify view order
     this.views = [intro,
-                  instructionsForcedChoice,
-                  mainForcedChoice,
+                  instructionsKeyPress,
+                  mainKeyPress,
                   instructionsTextboxInput,
                   mainTextboxInput,
-                  instructionsSliderRating,
-                  mainSliderRating,
-                  instructionsDropdownChoice,
-                  mainDropdownChoice,
-                  instructionsRatingScale,
-                  mainRatingScale,
-                  instructionsSentenceChoice,
-                  mainSentenceChoice,
-                  instructionsImageSelection,
-                  mainImageSelection,
-				          instructionsKeyPress,
-                  mainKeyPress,
                   postTest,
                   thanks];
 
